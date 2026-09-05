@@ -3,7 +3,7 @@
 cantidadDeVecesEnLaFrendZone = 10
 teQuiere = True
 cuantoDineroTengo = 15400.2
-mi_mejor_amigo_se_llama = "John Wick, dios lo tenga en su sanata gloria"
+mi_mejor_amigo_se_llama = "John Wick, dios lo tenga en su santa gloria"
 variable_no_especificada = None
 peliculas_del_inge = ["La noche del demonio", "Sony"]
 diccionario = {
