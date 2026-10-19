@@ -38,4 +38,13 @@ class Carro:
         for i in range(cantidad):
             self.velocidad += 10
             self.historial_velocidades.append(self.velocidad)
-            print("Acelerando... Velocidad actual:", self.velocidad)
+            print("Acelerando... Velocidad actual:", self.velocidad, "km/h")
+
+    def frenar(self):
+        if not self.encendido or self.velocidad <= 0:
+            print("El carro está apagado o la cantidad es menor a 0. No se puede acelerar.")
+            return
+        while self.velocidad > 0:
+            self.velocidad -= 10
+            self.historial_velocidades.append(self.velocidad)
+            print("Frenando... Velocidad actual:", self.velocidad, "km/h")
