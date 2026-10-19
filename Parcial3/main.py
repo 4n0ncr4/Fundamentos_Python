@@ -1,9 +1,17 @@
 from carro import Carro
 
-kia = Carro("Kia", "Rio", 2020)
-# kia.mostrar_estado()
-kia.encender()
+murcielago = Carro("Lamborghini", "Murcielago", 2005)
+impala = Carro("Chevrolet", "Impala", 1967)
+kia = Carro("Kia", "K3", 2026)
 
-ford = Carro("Ford", "Fiesta", 2018)
-# ford.mostrar_estado()
-ford.encender()
+murcielago.encender()
+murcielago.acelerar(5)
+murcielago.mostrar_estado()
+
+impala.encender()
+impala.acelerar(1)
+impala.mostrar_estado()
+
+kia.encender()
+kia.acelerar(10)
+kia.mostrar_estado()
